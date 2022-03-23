@@ -14,8 +14,10 @@ public class Solution6 {
 		states.add(userInput);
 		
 		while(!(userInput.equals("done"))) {
+			
 			System.out.println("State name: ");
 			userInput = sc.nextLine().toLowerCase();
+			
 			if(!(userInput.equals("done"))) {
 				states.add(userInput);
 			}

@@ -33,6 +33,7 @@ public class Solution8 {
 						}	
 					}
 				}
+			
 			}
 			
 			System.out.println(Arrays.asList(fileWords));
