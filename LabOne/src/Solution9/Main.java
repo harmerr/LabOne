@@ -6,14 +6,20 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Playlist list;
-		ArrayList<Playlist> playlist = new ArrayList<Playlist>();
+		ArrayList<Song> playListOne = new ArrayList<Song>();
 		
-		Song song1;
-		Song song2;
-		Song song3;
+		Playlist list = new Playlist("Playlist 1", playListOne);
 		
-		playlist.add(song2);
-		playlist.add(song2);
+		Song song1 = new Song("Basket Case", 184);
+		Song song2 = new Song("I THINK", 162);
+		Song song3 = new Song("Under the Bridge", 207);
+		
+		playListOne.add(song1);
+		playListOne.add(song2);
+		playListOne.add(song3);
+		
+		System.out.println(playListOne);
+		
+
 	}
 }

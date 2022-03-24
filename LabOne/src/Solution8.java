@@ -14,12 +14,12 @@ public class Solution8 {
 			
 			HashMap<String, Integer> fileWords = new HashMap<String, Integer>();
 			
-			while(file != null) {
+			while(!(file.equals(null))) {
 				System.out.println(file);
 				
 				file = reader.readLine();
 				
-				if(file != null) {
+				if(!(file.equals(null))) {
 					String[] words = file.split(" ");
 				
 					for(String word : words) {
